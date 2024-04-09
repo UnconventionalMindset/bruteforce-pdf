@@ -1,22 +1,30 @@
 = Bruteforce a PDF
+
 Python script to bruteforce a PDF based on a dictionary.
 
 = Story
+
 A health company based in my city sends me 2 emails for an operation I plan to have soon. In the first one they write:
----
+
+____
 We will send you an email with a document shortly. For security reasons this document is password protected. The password is your date of birth simply written without a dot. (e.g. DDMMYYYYY)
 If you have any further questions, please do not hesitate to contact our team.
----
+____
 
 While in the other:
----
+
+____
 You will receive your requested documents from us as a secured PDF document.
 After opening the respective attachment, a window will appear and you will be asked to enter your password.
 If you have not yet received your password or have possibly misplaced it, please contact us by phone.
----
+____
+
 and there are attached 2 encrypted PDF.
 
 Now I perfectly know my Date of Birth but apparently they do not :)
+
 So I went on a little challenge to try to figure out the date but it seems that they did not put any date in between 01.01.1990 and 01.01.2024.
+
 And yes, I did notice they wrote DDMMYYYYY instead of DDMMYYYY but I am not sure in what galaxy are they living ;)
+
 Sounds like I'll have to call... :(
